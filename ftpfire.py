@@ -55,7 +55,7 @@ if len(a)<5:
 
 host = a[1]
 port = int(a[2])
-timeout = int(a[5])
+timeout = float(a[5])
 userWpath = a[3]
 passWpath = a[4]
 
