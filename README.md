@@ -29,8 +29,8 @@ A simple FTP brute force tool written in Python for educational and research pur
 
 1. **Clone the repository** (if applicable):
     ```bash
-    git clone https://github.com/your-username/ftp-brute-force.git
-    cd ftp-brute-force
+    git clone https://github.com/bayazid-bit/FTPFIRE.git
+    cd FTPFIRE
     ```
 
 2. **Install the necessary dependencies** (Python 3.x recommended):
@@ -45,4 +45,4 @@ A simple FTP brute force tool written in Python for educational and research pur
 
 ### Command Line Arguments:
 ```bash
-python3 ftpc.py <host> <port> <userWordList> <PassWordList> <timeout>
+python3 ftpfire.py <host> <port> <userWordList> <PassWordList> <timeout>
