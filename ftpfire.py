@@ -26,10 +26,6 @@ class Log:
 
 
 
-if len(a)<5:
-    print("run python3 ftpc.py <host> <port> <userWordList> <PassWordList> <timeout in seconds> ")
-    print("example python3 ftpfire.py 192.168.1.103 2121 ./users.txt ./passwords.txt 0.8")
-    sys.exit()
 
 
 
@@ -48,10 +44,15 @@ def banner():
                                              """
     os.system('cls' if os.name =='nt' else "clear")
     print(t)
-
-
-
 banner()
+if len(a)<5:
+    print("run python3 ftpc.py <host> <port> <userWordList> <PassWordList> <timeout in seconds> ")
+    print("example python3 ftpfire.py 192.168.1.103 2121 ./users.txt ./passwords.txt 0.8")
+    sys.exit()
+
+
+
+
 host = a[1]
 port = int(a[2])
 timeout = int(a[5])
