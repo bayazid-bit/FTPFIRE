@@ -4,7 +4,7 @@ A simple FTP brute force tool written in Python for educational and research pur
 
 **Created by:** MD. Bayazid  
 **Email:** bayazid.mtu@gmail.com  
-**Batch:** SSC 2025  
+**Batch:** HSC 2027
 
 ---
 
